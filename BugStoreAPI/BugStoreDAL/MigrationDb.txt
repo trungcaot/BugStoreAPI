@@ -1,0 +1,5 @@
+﻿cd .\BugStoreDAL
+
+dotnet ef migrations add Initial -o EF\Migrations -c BugStoreDAL.EF.StoreContext
+
+dotnet ef database update

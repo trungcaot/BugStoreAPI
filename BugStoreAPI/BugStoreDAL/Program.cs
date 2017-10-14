@@ -1,4 +1,5 @@
 ﻿using System;
+using BugStoreDAL.EF.Initializers;
 
 namespace BugStoreDAL
 {
@@ -6,6 +7,7 @@ namespace BugStoreDAL
     {
         static void Main(string[] args)
         {
+            Initializer.InitializeData();
         }
     }
 }

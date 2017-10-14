@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugStoreAPI", "BugStoreAPI\BugStoreAPI.csproj", "{1FEB4CE8-34AD-4F16-8E56-328925E2ECC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugStoreAPI", "BugStoreAPI\BugStoreAPI.csproj", "{1FEB4CE8-34AD-4F16-8E56-328925E2ECC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugStoreDAL", "BugStoreDAL\BugStoreDAL.csproj", "{1A70CD33-0CC1-4E43-A72F-37A0AD40592F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugStoreDAL", "BugStoreDAL\BugStoreDAL.csproj", "{1A70CD33-0CC1-4E43-A72F-37A0AD40592F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugStoreTests", "BugStoreTests\BugStoreTests.csproj", "{ABA7B654-C0B5-4EB8-AEBB-A8BF9B0A082D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugStoreTests", "BugStoreTests\BugStoreTests.csproj", "{ABA7B654-C0B5-4EB8-AEBB-A8BF9B0A082D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugStoreModels", "BugStoreModels\BugStoreModels.csproj", "{774E6929-BCE5-4100-A874-2950CA563C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugStoreModels", "BugStoreModels\BugStoreModels.csproj", "{774E6929-BCE5-4100-A874-2950CA563C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugStoreAPI.Tests", "BugStoreAPI.Tests\BugStoreAPI.Tests.csproj", "{1DE6EAC3-136C-4632-AB53-CCF5B58FCC7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{774E6929-BCE5-4100-A874-2950CA563C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{774E6929-BCE5-4100-A874-2950CA563C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{774E6929-BCE5-4100-A874-2950CA563C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE6EAC3-136C-4632-AB53-CCF5B58FCC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE6EAC3-136C-4632-AB53-CCF5B58FCC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE6EAC3-136C-4632-AB53-CCF5B58FCC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE6EAC3-136C-4632-AB53-CCF5B58FCC7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

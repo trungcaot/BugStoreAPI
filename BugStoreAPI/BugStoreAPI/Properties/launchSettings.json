@@ -14,16 +14,17 @@
       "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:59610/"
     },
     "BugStoreAPI": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Staging"
       },
-      "applicationUrl": "http://localhost:59610/"
+      "applicationUrl": "http://localhost:59611/"
     }
   }
 }
